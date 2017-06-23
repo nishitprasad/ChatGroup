@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat-Group-Beta</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<script src="https://use.fontawesome.com/1c1a5448b7.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<script src='http://code.jquery.com/jquery-latest.min.js'></script>
+	<script src="/socket.io/socket.io.js"></script>
+</head>
+<body id='page-body'>
+	
+	<div id='heading'>
+		<h3 class='animated fadeInRight'>ChatGroup</h3>
+	</div>
+
+	<div id='username-section' class='animated fadeInRight' >
+		<form id='userForm'>
+			<h4>Enter Username</h4>
+			<input id='username-text' type='text' name='username' placeholder='Enter Username..' autocomplete='off' required autofocus><br/>
+			<input id='login-btn' type="submit" value="Enter">
+		</form>
+	</div>
+	
+	<div id='messageArea'>
+		<div id='users-list' class='animated fadeInLeft'>
+			<h4>Online Users</h4>
+			<ul class="list-group" id='users'></ul>
+		</div>
+
+		<div id='message-log'></div>
+
+		<div id='inputText'>
+			<form id='messageForm'>
+				<input id='message-btn' type="submit" value="Send">
+				<div id='message-input'>
+					<input id='message-input-text' type='text' name='message' placeholder='Type your message here..' autocomplete='off' required autofocus>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	<script src='scripts/jquery-script.js'></script>
+</body>
+</html>
