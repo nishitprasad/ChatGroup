@@ -45,7 +45,15 @@ The following are some screenshots that showcase the interface (tested in localh
 4. The following gif that shows a normal group conversation between Max, David, Joe and Nishit:
  ![Sample Run](Screenshots/SampleChatGroupConversation.gif)
 
+### How to run
 
+1. Navigate to the directory containing index.html webpage.
+2. Run `nodejs server`.
+3. On the browser, go to `localhost:3000` to access the web application.
+4. Provide username and press Enter.
+5. Open another browser instance and go to the same localhost.
+6. Provide another username and press Enter.
+7. Begin chatting. If required, add more users (by opening more browser instances).
 
 ### Future Work
 
