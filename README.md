@@ -34,16 +34,16 @@ Blue color (with certain HEX code) is used for sending messages from a user's en
 
 The following are some screenshots that showcase the interface (tested in localhost):
 1.	Username interface:
- ![Initial Screen](Relevant Screenshots/Initial Screen.png)
+ ![Initial Screen](Screenshots/InitialScreen.png)
 
 2.	Chatroom body interface:
- ![Chatroom Screen](Relevant Screenshots/TypicalChatRoomScreen.png)
+ ![Chatroom Screen](Screenshots/TypicalChatRoomScreen.png)
 
 3.	Example of 4 people entering their respective usernames:
- ![Typical Group Initial Screen](Relevant Screenshots/ChatGroupExample.png)
+ ![Typical Group Initial Screen](Screenshots/ChatGroupExample.png)
 
 4. The following gif that shows a normal group conversation between Max, David, Joe and Nishit:
- ![Sample Run](Relevant Screenshots/SampleChatGroupConversation.gif)
+ ![Sample Run](Screenshots/SampleChatGroupConversation.gif)
 
 
 
